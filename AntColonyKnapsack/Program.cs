@@ -158,7 +158,7 @@ namespace AntColony
             var (values, weights) = GenerateModel(n, (100, 500), (30, 100));
             int capacity = 500;
             int ants = 100;
-            int threads = 16;
+            int threads = 1;
             double alpha = 1.0;
             double beta = 2.0;
             double rho = 0.5;
