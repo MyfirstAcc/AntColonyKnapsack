@@ -1,6 +1,6 @@
-﻿@startuml
+﻿﻿@startuml
 skin rose
-scale 50
+title Параллельное выполнение АСО
 start
   :Инициализация параметров;
   while (Есть ещё итерации?) is (да)
